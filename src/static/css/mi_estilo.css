@@ -1,0 +1,133 @@
+body{
+	background-image: url("../img/fondopagina.jpg");
+	background-size: cover;
+	background-attachment: fixed;
+    text-align: center;
+
+}
+
+h1{
+	font-family: cursive;
+	color: black;
+	text-shadow: 5px 5px 5px white;
+
+}
+
+
+h2,p{
+	text-align: justify;
+	color:black; 
+	text-shadow: 5px 5px 5px skyblue;	
+}
+
+
+
+#navbar
+{
+	background:black;
+
+}
+
+#navbar a{
+
+	font-weight: bold;
+	color: white;
+
+}
+
+#dropdown 
+{
+	background: black;
+}
+
+#dropdown a
+{
+	font-weight: bold;
+	color: white;
+
+}
+
+#dropdown a:hover
+{
+	background-color: black;
+
+}
+
+.button hover{
+	background-color: skyblue;
+}
+
+.logo{
+   height: 200px;
+   margin-top: 3rem;
+   border-radius: 150px 150px 150px 150px;
+
+}
+
+#login{
+	width: 60px;
+    padding-left: 1rem;
+}
+
+.carousel {
+	margin-top: 2rem;
+	image-rendering: 100px;
+}
+
+
+.card{
+
+	margin-left: 4;
+	margin-right: 4;
+	margin-top: 4;
+	margin-bottom: 4;
+}
+
+#form-inline{
+	color: white;
+}
+
+#headingOne button,#headingTwo button,#headingThree button{
+	color: black;
+}
+
+footer{
+	/* background-color: rgb(60, 179, 113); */
+	background-color: black;
+	color: white;
+	/* estaba en 5 */
+	height: 7rem;
+	margin-top: 10rem;
+
+}
+
+li{
+	color: red;
+}
+
+label
+{
+	text-align: right;
+	margin-right: 50rem;
+	text-shadow: 5px 5px 5px skyblue;
+}
+
+table
+{
+	background-color: white;
+
+}
+
+thead,tr
+{
+	background-color: white;
+
+}
+
+/* para que las imagenes tengan el mismo tamaño */
+fixed-image {
+    width: 100%;       /* Ajusta el ancho de la imagen al de la tarjeta */
+    height: 200px;     /* Puedes ajustar la altura según lo que necesites */
+    object-fit: cover; /* Ajusta la imagen para que ocupe el espacio sin deformarse */
+}
+
